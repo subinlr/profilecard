@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.faceimg {
+  height: auto;
+  width: 100%;
+}
+
+.contents {
+  text-align: center;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #008080;
+  margin: 20px 20px;
+}
+
+.desig {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+
+.firm {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #808080;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  font-size: 25px;
+  margin: 10px 10px;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #050505;
+  background-color: #a4a7a6;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contact:hover {
+  background-color: #008080;
+  color: #b4b4aa;
+  font-size: 17px;
+}
+
+.card {
+  border-style: solid;
+  padding: 10px;
+  width: 20%;
+}
+
+.social > a {
+  color: #050505;
+}
